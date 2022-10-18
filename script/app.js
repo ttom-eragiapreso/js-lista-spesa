@@ -18,7 +18,7 @@ let ul = document.createElement("ul");
 
 for(let i = 0; i < foods.length; i++){
   let li = document.createElement("li");
-  li.innerHTML = foods[i];
+  li.innerHTML = foods[i] + " for loop lista";
   ul.append(li);
 }
 
@@ -31,7 +31,7 @@ output.append(ul);
 let i = 0;
 while(i < foods.length){
   let li = document.createElement("li");
-  li.innerHTML = foods[i];
+  li.innerHTML = foods[i] + " while lista";
   ul.append(li);
   i++;
 }
